@@ -99,6 +99,7 @@
         android:layout_marginBottom="47dp"
         android:layout_marginEnd="85dp"
         android:layout_marginStart="84dp"
+        android:text="Afonso Martinhio"
         android:textColor="@android:color/holo_red_dark"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
