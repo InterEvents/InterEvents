@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/InterEvents.iml" filepath="$PROJECT_DIR$/InterEvents.iml" />
+      <module fileurl="file://C:\Users\ruile\AndroidStudioProjects\InterEvents\InterEvents.iml" filepath="C:\Users\ruile\AndroidStudioProjects\InterEvents\InterEvents.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\ruile\AndroidStudioProjects\InterEvents\app\app.iml" filepath="C:\Users\ruile\AndroidStudioProjects\InterEvents\app\app.iml" />
     </modules>
   </component>
 </project>
