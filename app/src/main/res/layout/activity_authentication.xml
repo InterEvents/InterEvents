@@ -11,15 +11,14 @@
         style="@android:style/Widget.Button"
         android:layout_width="217dp"
         android:layout_height="58dp"
-        android:layout_marginBottom="17dp"
         android:layout_marginEnd="83dp"
         android:layout_marginStart="84dp"
         android:background="@android:color/holo_red_light"
         android:text="Log in"
         android:textColor="@android:color/background_light"
-        app:layout_constraintBottom_toTopOf="@+id/registerBtn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="214dp" />
 
     <EditText
         android:id="@+id/userInput"
@@ -77,31 +76,4 @@
         app:layout_constraintBottom_toTopOf="@+id/loginBtn"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <Button
-        android:id="@+id/registerBtn"
-        style="@android:style/Widget.Button"
-        android:layout_width="215dp"
-        android:layout_height="38dp"
-        android:layout_marginBottom="117dp"
-        android:layout_marginEnd="85dp"
-        android:layout_marginStart="84dp"
-        android:background="@android:color/holo_red_light"
-        android:text="Register"
-        android:textColor="@android:color/background_light"
-        app:layout_constraintBottom_toTopOf="@+id/errorTxt"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <TextView
-        android:id="@+id/errorTxt"
-        android:layout_width="215dp"
-        android:layout_height="22dp"
-        android:layout_marginBottom="47dp"
-        android:layout_marginEnd="85dp"
-        android:layout_marginStart="84dp"
-        android:text="Rui RL Gomes"
-        android:textColor="@android:color/holo_red_dark"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
 </android.support.constraint.ConstraintLayout>
